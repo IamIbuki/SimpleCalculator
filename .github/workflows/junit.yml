@@ -32,3 +32,5 @@ jobs:
 
       - name: Junit Test
         run: ./gradlew test
+        run: ./gradlew jacocoTestReport
+        
