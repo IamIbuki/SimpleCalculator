@@ -17,10 +17,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v5
-        with:
-          sparse-checkout: |
-            .github
-            src
       - name: Set up JDK 21
         uses: 
           java-version: "21"
